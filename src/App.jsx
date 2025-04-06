@@ -19,7 +19,7 @@ const App = () => {
         let { days, hours, minutes, seconds } = prev;
         if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
           clearInterval(timer);
-          return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+          return { days: 0, hours: 0, minutes: 4, seconds: 0 };
         }
 
         seconds--;

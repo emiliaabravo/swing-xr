@@ -16,7 +16,7 @@ const Demo = ({ countdown, onDemoClick }) => {
             A new way to train
           </span>
           <br className="hidden sm:block" />
-          <span className="text-[#0F0F10]">with immersive golf</span>
+          <span className="text-[#0F0F10]"> with immersive golf</span>
         </p>
 
         <div className="space-y-16 text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
