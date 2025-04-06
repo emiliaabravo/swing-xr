@@ -17,9 +17,8 @@ const Header = ({ activeSection, setActiveSection }) => {
   
           <nav className="hidden md:flex items-center gap-x-16 absolute left-2/3 -translate-x-1/2">
             <a href="#overview" className="text-gray-700 hover:text-blue-500">Overview</a>
-            <a href="#features" className="text-gray-700 hover:text-blue-500">Demo</a>
-            <a href="#features" className="text-gray-700 hover:text-blue-500">Features</a>
-            <a href="#techspecs" className="text-gray-700 hover:text-blue-500">TechSpecs</a>
+            <a href="#demo" className="text-gray-700 hover:text-blue-500">Project</a>
+            <a href="#demo-video" className="text-gray-700 hover:text-blue-500">Demo</a>
           </nav>
         {/*
           <button
