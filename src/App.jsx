@@ -10,7 +10,7 @@ import { Compass, Users, Camera } from 'lucide-react';
 const App = () => {
   const [activeSection, setActiveSection] = useState('overview');
   const [isPlaying, setIsPlaying] = useState(false);
-  const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 27, seconds: 0 });
+  const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [showVideo, setShowVideo] = useState(false); 
   
   useEffect(() => {
